@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_programa_programas",
+  "info": {
+    "displayName": "Programa",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "hora_inicio": {
+      "type": "time"
+    },
+    "hora_final": {
+      "type": "time"
+    }
+  }
+}

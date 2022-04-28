@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "programacions",
+  "info": {
+    "singularName": "programacion",
+    "pluralName": "programacions",
+    "displayName": "Programacion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dia": {
+      "type": "string"
+    },
+    "programas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "programa.programa"
+    }
+  }
+}
