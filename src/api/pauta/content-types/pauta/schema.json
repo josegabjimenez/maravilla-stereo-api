@@ -4,7 +4,8 @@
   "info": {
     "singularName": "pauta",
     "pluralName": "pautas",
-    "displayName": "Pauta"
+    "displayName": "Pauta",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,14 +16,18 @@
       "type": "string"
     },
     "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "url_image": {
+      "type": "string"
     }
   }
 }
